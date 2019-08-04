@@ -1,0 +1,84 @@
+.container {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 22px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: 5% auto;
+    width: 270px;
+    height: 400px;
+    background-color: RGB(223, 216, 208);
+    border-radius: 20px;
+    text-align: center
+}
+
+h5 {
+    margin: 20px 0px auto;
+
+}
+
+form {
+    width: 85%;
+    height: 60px;
+    text-align: center;
+    margin: 20px auto;
+    background-color: RGB(195, 194, 171);
+}
+
+#resultid,
+#calcid {
+    width: 100%;
+    box-sizing: border-box;
+    height: 50%;
+    margin: 0px;
+    background-color: RGB(195, 194, 171);
+    text-align: right;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.buttons {
+    width: 260px;
+    height: 228px;
+    margin-left: 20px;
+    outline: none;
+    border: none;
+
+}
+
+button {
+    float: left;
+    width: 50px;
+    height: 40px;
+    margin: 0px 10px 7px 0px;
+    font-size: 20px;
+    color: #fff;
+    background-color: RGB(58, 58, 58);
+    border-radius: 10px;
+}
+
+#button0 {
+    width: 110px;
+    position: absolute;
+    left: 20px;
+    bottom: 22px
+}
+
+#decimal {
+    position: absolute;
+    left: 141px;
+    bottom: 22px;
+}
+
+#evaluate {
+    position: absolute;
+    height: 88px;
+    right: 10px;
+    bottom: 22px;
+}
+
+.red {
+    background-color: RGB(167, 45, 69);
+}
