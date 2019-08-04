@@ -37,7 +37,6 @@ function decimal() {
     } else if (result.indexOf('.') != -1) {
         return;
     } else if (calc === '0' || ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'].indexOf(calc.substr(calc.length - 1))) {
-        console.log(calc.substr(calc.length - 1));
         $('#calcid').val(calc + $(this).val());
         $('#resultid').val(result + $(this).val());
     } else if (['*', '/', '+', '-'].indexOf(calc.substr(calc.length - 1)) != -1) {
@@ -80,7 +79,6 @@ function clear() {
 }
 
 $(document).ready(function () {
-    console.log('why');
     $('#clear').click(clear);
     $('#button0').click(onetonine);
     $('#button1').click(onetonine);
